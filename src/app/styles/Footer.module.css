@@ -1,0 +1,32 @@
+/** MOBILE **/
+.footerContainer {
+  position: relative;
+  height: 35rem;
+  padding: 1rem;
+}
+
+.footerContainer p {
+  color: var(--background-color);
+}
+
+.footerBackgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+/** TABLET **/
+
+@media only screen and (min-width: 600px) {
+}
+
+/** LARGER SCREENS **/
+
+@media only screen and (min-width: 1200px) {
+}
