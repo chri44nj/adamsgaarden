@@ -1,13 +1,9 @@
 /** MOBILE **/
 
-.frontPageMain {
-  padding-top: 80px;
-}
-
 .hero,
 .placeholderSection {
   position: relative;
-  height: calc(100dvh - 80px);
+  height: 100dvh;
   padding-inline: 10%;
   display: flex;
   flex-direction: column;
@@ -22,7 +18,12 @@
 }
 
 .hero p {
-  font-size: var(--);
+  font-size: var(--font-small);
+}
+
+.hero p:first-of-type {
+  font-weight: bold;
+  padding-top: 80px;
 }
 
 .hero * {
@@ -43,16 +44,12 @@
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
-  .frontPageMain {
-    padding-top: 100px;
-  }
-
-  .hero {
-    height: calc(100dvh - 100px);
-  }
-
   .hero h1 {
     font-size: 4rem;
+  }
+
+  .hero p:first-of-type {
+    padding-top: 100px;
   }
 }
 
