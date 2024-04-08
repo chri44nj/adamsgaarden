@@ -84,7 +84,7 @@ function Footer() {
           </a>
         </div>
       </article>
-      <img className={styles.footerBackgroundImage} src="pics/droneshot.png" alt="droneshot" />
+      <img className={styles.footerBackgroundImage} src="/pics/droneshot.png" alt="droneshot" />
     </footer>
   );
 }

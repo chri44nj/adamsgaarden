@@ -2,7 +2,8 @@
 .header {
   position: fixed;
   width: 100%;
-  background-color: var(--accent-green);
+  transition: background-color 0.5s ease;
+  background-color: transparent;
   color: var(--background-color);
   padding: 1rem;
   height: 80px;
@@ -23,23 +24,34 @@
   top: 50%;
   left: 1rem;
   height: 70px;
+  z-index: 10;
 }
 
 .headerNavigation {
   position: absolute;
   display: flex;
+  align-items: flex-end;
   flex-direction: column;
   gap: 1rem;
   width: 100%;
-  left: -100%;
+  height: 100dvh;
+  right: -100%;
+  transition: right 0.3s ease;
   top: 0;
+  background-color: var(--accent-green);
+  padding: 100px 1rem;
+}
+
+.open {
+  right: 0; /* Move the navigation to the left (onscreen) when it's open */
 }
 
 .headerNavigation a {
   position: relative;
   color: var(--background-color);
-  transition: 0.2s;
+  transition: 0.2s ease;
   font-weight: bold;
+  font-size: var(--font-medium);
 }
 
 .headerNavigation a:hover {
@@ -82,10 +94,16 @@
     position: static;
     flex-direction: row;
     width: fit-content;
+    height: auto;
+    background-color: transparent;
   }
 
   .burgerMenu {
     display: none;
+  }
+
+  .headerNavigation a {
+    font-size: var(--font-smaller);
   }
 
   .headerNavigation a::after {
@@ -98,7 +116,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
     right: 50%;
-    transition: 0.3s;
+    transition: 0.3s ease;
   }
 
   .headerNavigation a:hover::after {
