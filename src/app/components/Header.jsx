@@ -8,7 +8,9 @@ import styles from "../styles/Header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <img className={styles.logo} src="pics/logo.png" alt="logo" />
+      <a href="/">
+        <img className={styles.logo} src="pics/logo.png" alt="logo" />
+      </a>
       <nav className={styles.headerNavigation}>
         <a href="#">Linkus</a>
         <a href="#">Linkus</a>

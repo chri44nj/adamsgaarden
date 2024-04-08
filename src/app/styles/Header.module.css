@@ -39,28 +39,11 @@
   position: relative;
   color: var(--background-color);
   transition: 0.2s;
+  font-weight: bold;
 }
 
 .headerNavigation a:hover {
-  color: var(--background-color);
   cursor: pointer;
-}
-
-.headerNavigation a::after {
-  content: "";
-  position: absolute;
-  background-color: var(--background-color);
-  height: 1.5px;
-  width: 0;
-  bottom: 0;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  right: 50%;
-  transition: 0.3s;
-}
-
-.headerNavigation a:hover::after {
-  width: 100%;
 }
 
 .burgerMenu {
@@ -103,6 +86,23 @@
 
   .burgerMenu {
     display: none;
+  }
+
+  .headerNavigation a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--background-color);
+    height: 1.5px;
+    width: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    transition: 0.3s;
+  }
+
+  .headerNavigation a:hover::after {
+    width: 100%;
   }
 }
 
