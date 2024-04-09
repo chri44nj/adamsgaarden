@@ -13,7 +13,7 @@ export default function Home() {
       <section className={styles.hero}>
         <p>Velkommen til</p>
         <h1>Adamsgården</h1>
-        <p>Besøg os og oplev foreningen af landbrugets charme og naturens skønhed, i den idylliske udkant af Jyderup.</p>
+        <p>Besøg os og oplev foreningen af landbrugets charme og naturens skønhed, i den idylliske udkant af Jyderup. Kommer du for at forkæle en af dine kære, dig selv eller begge? Uanset hvad, har vi det rette klar til dig, på Adamsgården.</p>
         <img className={styles.heroBackground} src="/pics/gaard.jpg" alt="gaard" />
       </section>
       <section className={styles.testimonals}>

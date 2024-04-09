@@ -14,6 +14,7 @@
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  letter-spacing: 2px;
 }
 
 .hero p {
@@ -42,7 +43,7 @@
 
 .testimonals {
   position: relative;
-  height: calc(100dvh - 80px);
+  height: 100dvh;
   padding-inline: 1rem;
   display: flex;
   flex-direction: column;
@@ -50,6 +51,7 @@
   align-items: center;
   text-align: center;
   gap: 2rem;
+  background-color: var(--background-color);
 }
 
 .leftButton:hover,
@@ -66,10 +68,6 @@
 
   .hero p:first-of-type {
     padding-top: 100px;
-  }
-
-  .testimonals {
-    height: calc(100dvh - 100px);
   }
 
   .leftButton {

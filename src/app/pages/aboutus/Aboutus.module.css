@@ -1,4 +1,59 @@
-.aboutusMain {
+.hero {
+  position: relative;
   height: 100dvh;
-  background-color: var(--accent-yellow);
+  padding-inline: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: var(--font-small);
+}
+
+.hero p:first-of-type {
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.hero * {
+  color: white;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.shop {
+  height: 100dvh;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero p:first-of-type {
+    padding-top: 100px;
+  }
+}
+
+/** LARGER SCREENS **/
+
+@media only screen and (min-width: 1200px) {
 }

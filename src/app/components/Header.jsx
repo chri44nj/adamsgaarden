@@ -22,7 +22,7 @@ function Header() {
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
       if (scrollPosition > scrollThreshold) {
-        header.style.backgroundColor = "var(--accent-yellow)";
+        header.style.backgroundColor = "var(--accent-green)";
       } else {
         header.style.backgroundColor = "transparent";
       }
