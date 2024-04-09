@@ -1,7 +1,6 @@
 /** MOBILE **/
 
-.hero,
-.placeholderSection {
+.hero {
   position: relative;
   height: 100dvh;
   padding-inline: 10%;
@@ -41,6 +40,23 @@
   z-index: -1;
 }
 
+.testimonals {
+  position: relative;
+  height: calc(100dvh - 80px);
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.leftButton:hover,
+.rightButton:hover {
+  cursor: pointer;
+}
+
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
@@ -50,6 +66,24 @@
 
   .hero p:first-of-type {
     padding-top: 100px;
+  }
+
+  .testimonals {
+    height: calc(100dvh - 100px);
+  }
+
+  .leftButton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 10%;
+  }
+
+  .rightButton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 10%;
   }
 }
 

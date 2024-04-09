@@ -42,34 +42,6 @@ function Footer() {
             </svg>
             mail@adamsgaarden.dk
           </a>
-        </div>
-      </article>
-      <article>
-        <h2>Åbningstider</h2>
-        <div className="flex-row">
-          <div className="flex-column">
-            <p>Mandag:</p>
-            <p>Tirsdag:</p>
-            <p>Onsdag:</p>
-            <p>Torsdag:</p>
-            <p>Fredag:</p>
-            <p>Lørdag:</p>
-            <p>Søndag:</p>
-          </div>
-          <div className="flex-column">
-            <p>Lukket</p>
-            <p>Lukket</p>
-            <p>Lukket</p>
-            <p>Lukket</p>
-            <p>13:00 - 17:30</p>
-            <p>09:30 - 13:00</p>
-            <p>Lukket</p>
-          </div>
-        </div>
-      </article>
-      <article>
-        <h2>Følg os</h2>
-        <div className="flex-column">
           <a className={`${styles.link} flex-row`} target="_blank" href="https://www.facebook.com/adamsgaarden">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -82,6 +54,52 @@ function Footer() {
             </svg>
             adamsgaardens_gaardbutik
           </a>
+        </div>
+      </article>
+      <article>
+        <h2>Gårdbutikken</h2>
+        <div className="flex-row">
+          <div className="flex-column">
+            <p>Mandag:</p>
+            <p>Tirsdag:</p>
+            <p>Onsdag:</p>
+            <p>Torsdag:</p>
+            <p>Fredag:</p>
+            <p>Lørdag:</p>
+            <p>Søndag:</p>
+          </div>
+          <div className="flex-column">
+            <p>15:30 - 18:00</p>
+            <p>15:30 - 18:00</p>
+            <p>15:30 - 18:00</p>
+            <p>15:30 - 18:00</p>
+            <p>15:30 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2>Bær & Grøntsager</h2>
+        <div className="flex-row">
+          <div className="flex-column">
+            <p>Mandag:</p>
+            <p>Tirsdag:</p>
+            <p>Onsdag:</p>
+            <p>Torsdag:</p>
+            <p>Fredag:</p>
+            <p>Lørdag:</p>
+            <p>Søndag:</p>
+          </div>
+          <div className="flex-column">
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+            <p>09:00 - 18:00</p>
+          </div>
         </div>
       </article>
       <img className={styles.footerBackgroundImage} src="/pics/droneshot.png" alt="droneshot" />

@@ -9,10 +9,12 @@
   --background-color: #fdfdfd;
   --background-color-alt: #f0f0f0;
   --text-color: #130303;
-  --accent-blue: #2274a5;
-  --accent-red: #c0410c;
-  --accent-yellow: #fcb72c;
-  --accent-green: #646f0e;
+  --accent-blue: #3388cc;
+  --accent-red: #ff5555;
+  --accent-yellow: #ffbb33;
+  --accent-green: #66aa66;
+  --accent-brown: #cc7733;
+  --accent-turquoise: #55ffff;
 
   /* Font-Sizes */
   --font-smaller: 1rem;

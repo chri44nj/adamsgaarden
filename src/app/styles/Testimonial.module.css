@@ -1,0 +1,29 @@
+/** MOBILE **/
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.breakLine {
+  height: 2px;
+  width: 150px;
+  background-color: black;
+}
+
+.testimonialOrigin {
+  opacity: 50%;
+}
+
+/** TABLET **/
+
+@media only screen and (min-width: 600px) {
+}
+
+/** LARGER SCREENS **/
+
+@media only screen and (min-width: 1200px) {
+}
