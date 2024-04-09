@@ -52,10 +52,10 @@ function Header() {
         <img className={styles.logo} src="/pics/logo-transparent.png" alt="logo" />
       </Link>
       <nav className={`${styles.headerNavigation} ${menuOpen ? styles.open : ""}`}>
-        <Link href="/pages/shop" onClick={handleCloseMenu}>
+        <Link href="/pages/gaardbutik" onClick={handleCloseMenu}>
           Gårdbutik
         </Link>
-        <Link href="/pages/aboutus" onClick={handleCloseMenu}>
+        <Link href="/pages/om-os" onClick={handleCloseMenu}>
           Om os
         </Link>
       </nav>

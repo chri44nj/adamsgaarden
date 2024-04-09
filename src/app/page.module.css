@@ -15,6 +15,7 @@
   font-size: 2.5rem;
   margin-bottom: 1rem;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .hero p {
@@ -24,6 +25,7 @@
 .hero p:first-of-type {
   font-weight: bold;
   padding-top: 80px;
+  text-transform: uppercase;
 }
 
 .hero * {
@@ -51,7 +53,7 @@
   align-items: center;
   text-align: center;
   gap: 2rem;
-  background-color: var(--background-color);
+  background-color: var(--background-color-alt);
 }
 
 .leftButton:hover,
