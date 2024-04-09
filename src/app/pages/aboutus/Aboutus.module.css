@@ -11,7 +11,6 @@
 
 .hero h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
   letter-spacing: 2px;
 }
 
@@ -21,7 +20,6 @@
 
 .hero p:first-of-type {
   font-weight: bold;
-  padding-top: 80px;
 }
 
 .hero * {
@@ -46,10 +44,6 @@
 @media only screen and (min-width: 600px) {
   .hero h1 {
     font-size: 4rem;
-  }
-
-  .hero p:first-of-type {
-    padding-top: 100px;
   }
 }
 
