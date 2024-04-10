@@ -1,6 +1,7 @@
 "use client";
 /** Next/React **/
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 /** NPM **/
 
 /** Project Imports **/
@@ -11,6 +12,23 @@ import Testimonial from "./components/Testimonial";
 export default function Home() {
   /* States */
   const [testimonialNumber, setTestimonialNumber] = useState(1);
+
+  /* Effects */
+  useEffect(() => {
+    // Load Facebook SDK dynamically on the client side
+    const script = document.createElement("script");
+    script.src = "https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v19.0";
+    script.async = true;
+    script.defer = true;
+    script.crossOrigin = "anonymous";
+    document.body.appendChild(script);
+  }, []);
+
+  useEffect(() => {
+    if (window.FB) {
+      window.FB.XFBML.parse();
+    }
+  }, []);
 
   /* Functions */
   const handleTestimonialClick = (direction) => {
@@ -85,6 +103,17 @@ export default function Home() {
               <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
             </svg>
           </div>
+        </div>
+      </section>
+      <div className={styles.breakLine}>
+        <div></div>
+      </div>
+      <section className={styles.facebook}>
+        <h2>Facebook</h2>
+        <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="" data-height="" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
+          </blockquote>
         </div>
       </section>
     </main>

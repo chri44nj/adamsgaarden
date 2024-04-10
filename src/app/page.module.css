@@ -102,6 +102,11 @@
   cursor: pointer;
 }
 
+.facebook {
+  background-color: var(--background-color-alt);
+  padding: 1rem;
+}
+
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
@@ -143,6 +148,10 @@
     transform: translate(50%, -50%);
     top: 50%;
     right: 10%; /* Adjust this value */
+  }
+
+  .facebook {
+    padding: 4rem 10%;
   }
 }
 
