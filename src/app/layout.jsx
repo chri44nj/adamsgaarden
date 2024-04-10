@@ -7,6 +7,7 @@ import Head from "next/head";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Contexts from "./components/Contexts";
 
 export const metadata = {
   title: "Adamsgården",
@@ -16,16 +17,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <html lang="dk">
-        <body>
-          <Header></Header>
-          {children}
-          <Footer></Footer>
-        </body>
-      </html>
+      <Contexts>
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <html lang="da">
+          <body>
+            <Header></Header>
+            {children}
+            <Footer></Footer>
+          </body>
+        </html>
+      </Contexts>
     </>
   );
 }

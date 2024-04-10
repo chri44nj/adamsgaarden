@@ -71,12 +71,16 @@ export default function Home() {
       <div className={styles.background}>
         <div className={styles.address}>
           <a className="flex-row" target="_blank" href="https://www.google.com/maps/place/Adamsg%C3%A5rden/@55.6670873,11.4236887,17z/data=!3m1!4b1!4m6!3m5!1s0x464d7f56a3e17ee9:0x27fca4969a8336a9!8m2!3d55.6670873!4d11.4236887!16s%2Fg%2F11xphfdm7?entry=ttu">
-            <svg className={styles.hideMobile} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg>
-            <svg className={styles.hideWeb} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-            </svg>
+            <div className={styles.hideMobile}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+              </svg>
+            </div>
+            <div className={styles.hideWeb}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+              </svg>
+            </div>
             Aggersvoldvej 3a, 4450 Jyderup
           </a>
         </div>
