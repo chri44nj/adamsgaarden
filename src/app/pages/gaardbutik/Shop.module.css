@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100dvh;
+  height: 100vh;
   padding-inline: 10%;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: var(--font-large);
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -44,7 +44,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  max-height: 80dvh;
+  max-height: 80vh;
   width: 100%;
   aspect-ratio: 1/1;
 }
@@ -61,7 +61,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-height: 80dvh;
+  max-height: 80vh;
 }
 
 .st1 {
