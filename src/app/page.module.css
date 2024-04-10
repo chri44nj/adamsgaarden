@@ -43,12 +43,25 @@
   z-index: -1;
 }
 
+.background {
+  width: 100%;
+  background-color: var(--background-color-alt);
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: var(--font-small);
+}
+
 .familyWords {
   display: grid;
   grid-template-columns: 1fr;
   padding: 1rem;
   gap: 1rem;
-  background-color: var(--background-color-alt);
 }
 
 .familyWords article {
@@ -75,7 +88,7 @@
 .breakLine {
   display: flex;
   justify-content: center;
-  background-color: var(--background-color-alt);
+
   width: 100%;
 }
 
@@ -96,7 +109,6 @@
   align-items: center;
   text-align: center;
   gap: 2rem;
-  background-color: var(--background-color-alt);
 }
 
 .leftButton:hover,
@@ -105,7 +117,12 @@
 }
 
 .facebook {
-  background-color: var(--background-color-alt);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -118,6 +135,12 @@
 
   .hero p:first-of-type {
     padding-top: 100px;
+  }
+
+  .address {
+    padding-top: 4rem;
+    padding-bottom: 0;
+    font-size: var(--font-large);
   }
 
   .familyWords {

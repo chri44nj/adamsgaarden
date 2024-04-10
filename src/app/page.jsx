@@ -69,53 +69,60 @@ export default function Home() {
         {/*  <p>Besøg os og oplev foreningen af landbrugets charme og naturens skønhed, i den idylliske udkant af Jyderup. Kommer du for at forkæle en af dine kære, dig selv eller begge? Uanset hvad, har vi det rette for netop dine behov, på Adamsgården.</p> */}
         <img className={styles.heroBackground} src="/pics/gaard.jpg" alt="gaard" />
       </section>
-      <section className={styles.familyWords}>
-        <article>
-          <h2>Familie</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
-        </article>
-        <article>
-          <h2>Passion</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
-        </article>
-        <article>
-          <h2>Dedikation</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
-        </article>
-      </section>
-      <div className={styles.breakLine}>
-        <div></div>
-      </div>
-      <section className={styles.testimonals}>
-        <h2>Hvad siger vores gæster?</h2>
-        {testimonials.map((testimonial, index) => testimonialNumber === index + 1 && <Testimonial key={index + 1} review={testimonial.review} stars={testimonial.stars} name={testimonial.name} platform={testimonial.platform}></Testimonial>)}
-        <p>
-          {testimonialNumber} / {testimonials.length}
-        </p>
-        <div className="flex-row">
-          <div className={styles.leftButton} onClick={() => handleTestimonialClick("previous")}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-            </svg>
-          </div>
-          <div className={styles.rightButton} onClick={() => handleTestimonialClick("next")}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-            </svg>
-          </div>
+      <div className={styles.background}>
+        <div className={styles.address}>
+          <a target="_blank" href="https://www.google.com/maps/place/Adamsg%C3%A5rden/@55.6670873,11.4236887,17z/data=!3m1!4b1!4m6!3m5!1s0x464d7f56a3e17ee9:0x27fca4969a8336a9!8m2!3d55.6670873!4d11.4236887!16s%2Fg%2F11xphfdm7?entry=ttu">
+            Aggersvoldvej 3a, 4450 Jyderup
+          </a>
         </div>
-      </section>
-      <div className={styles.breakLine}>
-        <div></div>
-      </div>
-      <section className={styles.facebook}>
-        <h2>Facebook</h2>
-        <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="" data-height="" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
-            <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
-          </blockquote>
+        <section className={styles.familyWords}>
+          <article>
+            <h2>Familie</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
+          </article>
+          <article>
+            <h2>Passion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
+          </article>
+          <article>
+            <h2>Dedikation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt id suscipit accusantium deleniti unde quod aut magnam explicabo natus.</p>
+          </article>
+        </section>
+        <div className={styles.breakLine}>
+          <div></div>
         </div>
-      </section>
+        <section className={styles.testimonals}>
+          <h2>Hvad siger vores gæster?</h2>
+          {testimonials.map((testimonial, index) => testimonialNumber === index + 1 && <Testimonial key={index + 1} review={testimonial.review} stars={testimonial.stars} name={testimonial.name} platform={testimonial.platform}></Testimonial>)}
+          <p>
+            {testimonialNumber} / {testimonials.length}
+          </p>
+          <div className="flex-row">
+            <div className={styles.leftButton} onClick={() => handleTestimonialClick("previous")}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+              </svg>
+            </div>
+            <div className={styles.rightButton} onClick={() => handleTestimonialClick("next")}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+              </svg>
+            </div>
+          </div>
+        </section>
+        <div className={styles.breakLine}>
+          <div></div>
+        </div>
+        <section className={styles.facebook}>
+          <h2>Følg os på Facebook</h2>
+          <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="" data-height="" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
+            </blockquote>
+          </div>
+        </section>
+      </div>
     </main>
   );
 }
