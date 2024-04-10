@@ -66,7 +66,7 @@ export default function Home() {
         <p>Velkommen til</p>
         <h1>Adamsgården</h1>
         {/*  <p>Besøg os og oplev foreningen af landbrugets charme og naturens skønhed, i den idylliske udkant af Jyderup. Kommer du for at forkæle en af dine kære, dig selv eller begge? Uanset hvad, har vi det rette for netop dine behov, på Adamsgården.</p> */}
-        <img className={styles.heroBackground} src="/pics/gaard.jpg" alt="gaard" />
+        <img className={styles.heroBackground} src="/pics/gaard.webp" alt="gaard" />
       </section>
       <div className={styles.background}>
         <div className={styles.address}>

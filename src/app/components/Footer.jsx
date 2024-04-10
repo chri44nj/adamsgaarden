@@ -114,11 +114,11 @@ function Footer() {
           </svg>
         </button>
         <a className={styles.smileyReport} target="_blank" href="https://www.findsmiley.dk/772629">
-          <img src="/pics/smiley-report.png" alt="smiley-report" />
+          <img src="/pics/smiley-report.webp" alt="smiley-report" />
         </a>
         <p className={styles.copyright}>&copy; 2024 Adamsgården I/S Gårdbutik</p>
       </section>
-      <img className={styles.footerBackgroundImage} src="/pics/droneshot.png" alt="droneshot" />
+      <img className={styles.footerBackgroundImage} src="/pics/droneshot.webp" alt="droneshot" />
     </footer>
   );
 }
