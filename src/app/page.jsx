@@ -1,7 +1,6 @@
 "use client";
 /** Next/React **/
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
 /** NPM **/
 
 /** Project Imports **/
@@ -14,7 +13,7 @@ export default function Home() {
   const [testimonialNumber, setTestimonialNumber] = useState(1);
 
   /* Effects */
-  useEffect(() => {
+  /*   useEffect(() => {
     // Load Facebook SDK dynamically on the client side
     const script = document.createElement("script");
     script.src = "https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v19.0";
@@ -28,7 +27,7 @@ export default function Home() {
     if (window.FB) {
       window.FB.XFBML.parse();
     }
-  }, []);
+  }, []); */
 
   /* Functions */
   const handleTestimonialClick = (direction) => {
@@ -116,11 +115,11 @@ export default function Home() {
         </div>
         <section className={styles.facebook}>
           <h2>Følg os på Facebook</h2>
-          <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="300" data-height="500" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+          {/*    <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="300" data-height="500" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
               <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
             </blockquote>
-          </div>
+          </div> */}
         </section>
       </div>
     </main>
