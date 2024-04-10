@@ -94,19 +94,21 @@ export default function Home() {
         <section className={styles.testimonals}>
           <h2>Hvad siger vores gæster?</h2>
           {testimonials.map((testimonial, index) => testimonialNumber === index + 1 && <Testimonial key={index + 1} review={testimonial.review} stars={testimonial.stars} name={testimonial.name} platform={testimonial.platform}></Testimonial>)}
-          <p>
-            {testimonialNumber} / {testimonials.length}
-          </p>
-          <div className="flex-row">
-            <div className={styles.leftButton} onClick={() => handleTestimonialClick("previous")}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-              </svg>
-            </div>
-            <div className={styles.rightButton} onClick={() => handleTestimonialClick("next")}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-              </svg>
+          <div className="flex-column">
+            <p>
+              {testimonialNumber} / {testimonials.length}
+            </p>
+            <div className="flex-row">
+              <div className={styles.leftButton} onClick={() => handleTestimonialClick("previous")}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                </svg>
+              </div>
+              <div className={styles.rightButton} onClick={() => handleTestimonialClick("next")}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#130303" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+              </div>
             </div>
           </div>
         </section>
