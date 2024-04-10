@@ -116,7 +116,7 @@ export default function Home() {
         </div>
         <section className={styles.facebook}>
           <h2>Følg os på Facebook</h2>
-          <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="" data-height="" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="300" data-height="" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
               <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
             </blockquote>
