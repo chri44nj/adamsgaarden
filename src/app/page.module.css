@@ -65,24 +65,23 @@
 }
 
 .familyWords article {
-  padding: 1rem;
   border-radius: 10px;
 }
 
 .familyWords article * {
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
-.familyWords article:nth-child(1) {
-  background-color: var(--accent-red);
+.familyWords article:nth-child(1) h2 {
+  color: var(--accent-red);
 }
 
-.familyWords article:nth-child(2) {
-  background-color: var(--accent-yellow);
+.familyWords article:nth-child(2) h2 {
+  color: var(--accent-yellow);
 }
 
-.familyWords article:nth-child(3) {
-  background-color: var(--accent-blue);
+.familyWords article:nth-child(3) h2 {
+  color: var(--accent-blue);
 }
 
 .breakLine {
@@ -95,7 +94,7 @@
 .breakLine div {
   background-color: var(--text-color);
   opacity: 50%;
-  height: 2px;
+  height: 1px;
   width: 100%;
   margin: 1rem;
 }
@@ -145,7 +144,7 @@
   .address {
     padding-top: 4rem;
     padding-bottom: 0;
-    font-size: var(--font-large);
+    font-size: var(--font-medium);
   }
 
   .familyWords {
