@@ -54,7 +54,8 @@
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 1rem;
-  font-size: var(--font-small);
+  font-size: var(--font-smaller);
+  font-weight: bold;
 }
 
 .familyWords {
