@@ -68,7 +68,7 @@ function Footer() {
         <article>
           <h2>Gårdbutikken</h2>
           <div className="flex-row">
-            <div className="flex-column">
+            <div className={styles.flexColumn}>
               <p>Mandag:</p>
               <p>Tirsdag:</p>
               <p>Onsdag:</p>
@@ -77,7 +77,7 @@ function Footer() {
               <p>Lørdag:</p>
               <p>Søndag:</p>
             </div>
-            <div className="flex-column">
+            <div className={styles.flexColumn}>
               <p>15:30 - 18:00</p>
               <p>15:30 - 18:00</p>
               <p>15:30 - 18:00</p>
@@ -91,7 +91,7 @@ function Footer() {
         <article>
           <h2>Bær & Grøntsager</h2>
           <div className="flex-row">
-            <div className="flex-column">
+            <div className={styles.flexColumn}>
               <p>Mandag:</p>
               <p>Tirsdag:</p>
               <p>Onsdag:</p>
@@ -100,7 +100,7 @@ function Footer() {
               <p>Lørdag:</p>
               <p>Søndag:</p>
             </div>
-            <div className="flex-column">
+            <div className={styles.flexColumn}>
               <p>09:00 - 18:00</p>
               <p>09:00 - 18:00</p>
               <p>09:00 - 18:00</p>

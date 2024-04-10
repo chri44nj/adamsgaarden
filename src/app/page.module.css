@@ -10,7 +10,7 @@
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: var(--font-large);
   margin-bottom: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;

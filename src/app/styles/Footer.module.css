@@ -15,7 +15,7 @@
 
 .footer * {
   color: var(--background-color);
-  font-size: var(--font-small);
+  font-size: var(--font-smaller);
 }
 
 .footer h2 {
@@ -27,6 +27,12 @@
   position: relative;
   color: var(--background-color);
   transition: 0.2s ease;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .footerBackgroundImage {
@@ -63,8 +69,8 @@
   width: fit-content;
   background-color: transparent;
   border: none;
-  position: fixed;
-  bottom: 2rem;
+  position: absolute;
+  bottom: 4rem;
   right: 1rem;
 }
 
@@ -86,6 +92,10 @@
     row-gap: 2rem;
     padding-block: 6rem;
     padding-inline: 1rem;
+  }
+
+  .footer * {
+    font-size: var(--font-small);
   }
 
   .footer h2 {
