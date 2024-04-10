@@ -11,7 +11,7 @@ export default function Shop() {
     <main className={styles.shopMain}>
       <section className={styles.hero}>
         <h1>Gårdbutikken</h1>
-        <p>Hylderne er fyldte med nøje udvalgt frugt og grønt, fra eget land og omegn. Ydermere tilbyder vi det bedste indenfor olie, vin og honning, og vores glade hunde og katte byder dig altid velkommen med logrende haler og spinden. </p>
+        {/* <p>Hylderne er fyldte med nøje udvalgt frugt og grønt, fra eget land og omegn. Ydermere tilbyder vi det bedste indenfor olie, vin og honning, og vores glade hunde og katte byder dig altid velkommen med logrende haler og spinden. </p> */}
         <img className={styles.heroBackground} src="/pics/shop.jpg" alt="shop" />
       </section>
       <section className={styles.shop}>
