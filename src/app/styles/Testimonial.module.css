@@ -9,6 +9,8 @@
   background-color: var(--background-color);
   padding: 1rem;
   border-radius: 10px;
+  width: 100%;
+  min-height: 20rem;
 }
 
 .breakLine {
@@ -24,6 +26,10 @@
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
+  .slide {
+    width: fit-content;
+    min-width: 25rem;
+  }
 }
 
 /** LARGER SCREENS **/

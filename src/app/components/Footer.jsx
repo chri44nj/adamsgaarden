@@ -1,4 +1,6 @@
+"use client";
 /** Next/React **/
+import { useEffect } from "react";
 
 /** NPM **/
 
@@ -6,6 +8,12 @@
 import styles from "../styles/Footer.module.css";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
+
   return (
     <footer className={styles.footerContainer}>
       <section className={styles.footer}>
@@ -105,6 +113,17 @@ function Footer() {
         </article>
       </section>
       <div className={styles.breakLine}></div>
+      <section className={styles.footerFormalities}>
+        <button className={styles.scrollUp} type="button" onClick={scrollToTop}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+          </svg>
+        </button>
+        <a className={styles.smileyReport} target="_blank" href="https://www.findsmiley.dk/772629">
+          <img src="/pics/smiley-report.png" alt="smiley-report" />
+        </a>
+        <p className={styles.copyright}>&copy; 2024 Adamsgården I/S Gårdbutik</p>
+      </section>
       <img className={styles.footerBackgroundImage} src="/pics/droneshot.png" alt="droneshot" />
     </footer>
   );
