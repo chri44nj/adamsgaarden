@@ -43,7 +43,7 @@ export default function Shop() {
             <li>Søde og sprøde grønne ærter (børn spiser dem, som var de slik).</li>
             <li>Syrlige rabarber.</li>
             <li>Sunde grønkål.</li>
-            <li>Gulde og grønne squash.</li>
+            <li>Gule og grønne squash.</li>
             <li>Persille og basilikum i potter.</li>
           </ul>
           <p>Vores udvalg varierer altid med sæsonen.</p>
@@ -57,7 +57,8 @@ export default function Shop() {
 
         <article className={`${styles.shopText} ${styles.st3}`}>
           <h2>Gourmet olivenolie</h2>
-          <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal. Familien Larsen har skabt et unikt produkt - K. Larsen Gourmet Ekstra Jomfru Olivenolie:</p>
+          <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal.</p>
+          <p>Familien Larsen har skabt et unikt produkt - K. Larsen Gourmet Ekstra Jomfru Olivenolie:</p>
           <ul className={styles.detailsList}>
             <li>100% koldpresset olivensaft.</li>
             <li>Gourmet: kun 3-4 % af al olivenolie i EU må betegnes Gourmet (max 0,3 % syreindhold).</li>
@@ -69,7 +70,7 @@ export default function Shop() {
 
         <article className={`${styles.shopText} ${styles.st4}`}>
           <h2>Vin, specialøl & Spiritus</h2>
-          <p>Fra håndlavet specialøl på Vestsjælland til vinområdet Alentejo-regionen i det sydlige Portugal, har vi på første hånd oplevet vores leverandørers passion for deres håndværk. I gårdbutikken har vi samlet vores yndlingsoplevelser på flaske, altid baseret på de samme kriterier: god smag og en sand bedst-til-prisen-kvalitet.</p>
+          <p>Fra håndlavet specialøl på Vestsjælland til vinområdet Alentejo i det sydlige Portugal, har vi på første hånd oplevet vores leverandørers passion for deres håndværk. I gårdbutikken har vi samlet vores yndlingsoplevelser på flaske, altid baseret på de samme kriterier: god smag og en sand bedst-til-prisen-kvalitet.</p>
           <ul className={styles.detailsList}>
             <li>Mere end 12 forskellige fantastiske, portugisiske vine.</li>
             <li>Lokalt og håndbrygget specialøl fra Den gamle Brygger i Bjergsted. Vi har 10-12 forskellige stilarter, fra undergæret pilsner til overgæret quadruple.</li>
@@ -80,8 +81,7 @@ export default function Shop() {
         <article className={`${styles.shopText} ${styles.st5}`}>
           <h2>Lette løsninger</h2>
           <ul className={styles.detailsList}>
-            <li>Gavekurve til enhver anledning (også firmagaver).</li>
-            <li>Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
+            <li>Gavekurve til enhver anledning (også firmagaver). Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
             <li>Adamsgårdens Pinsekasse, med årstidens lækkerier og en flaske god vin fra Portugal.</li>
           </ul>
           <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
