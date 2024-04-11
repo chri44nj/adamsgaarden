@@ -41,7 +41,7 @@ export default function Aboutus() {
       <section className={styles.partnership}>
         <div>
           <h2 className={styles.smallHeading}>Adamsgårdens samarbejdspartnere</h2>
-          <p>Vi dyrker en masse bær- og grøntsager lokalt på gården, men vi supplerer med frugt og grønt fra en håndfuld nøje udvalgte lokale producenter. En tak for godt samarbejde lyder til:</p>
+          <p>Vi dyrker selv bær- og grøntsager lokalt på gården, men supplerer med frugt og grønt fra en håndfuld nøje udvalgte lokale producenter. En tak for godt samarbejde lyder til:</p>
         </div>
         <div className={styles.partners}>
           <a className={styles.partner1} target="_blank" href="https://www.facebook.com/Torpelund4/?locale=da_DK">
