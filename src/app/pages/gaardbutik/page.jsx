@@ -55,7 +55,7 @@ export default function Shop() {
           <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal. </p>
           <ul className={styles.detailsList}>
             <li>100% koldpresset og ekstra jomfru olivenolie.</li>
-            <li>Gourmet: kun 3-4 % af al olivenolie i EU må betegnes Gourmet (max 0,3 % syreindhold)</li>
+            <li>Gourmet: kun 3-4 % af al olivenolie i EU må betegnes Gourmet (max 0,3 % syreindhold).</li>
             <li>Velegnet til alle former for madlavning.</li>
             <li>Mild, rund og blød smag.</li>
           </ul>
@@ -64,12 +64,22 @@ export default function Shop() {
 
         <article className={`${styles.shopText} ${styles.st4}`}>
           <h2>Vin, specialøl & Spiritus</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <p>Fra passionerede bryggerier på Vestsjælland til Alentejo-regionen i det sydlige Portugal, har vi på første hånd oplevet vores leverandørers passion for deres håndværk. I gårdbutikken har vi samlet vores yndlingsoplevelser på flaske, altid baseret på de samme kriterier: god smag og en sand bedst-til-prisen-kvalitet.</p>
+          <ul className={styles.detailsList}>
+            <li>Mere end 12 forskellige fantastiske, portugisiske vine.</li>
+            <li>Lokalt og håndbrygget specialøl fra Den gamle Brygger i Bjergsted. Vi har 10-12 forskellige stilarter, fra undergæret pilsner til overgæret quadruple.</li>
+            <li>Stort udvalg af forskellig spiritus og cocktails fra Sams Island og Noormann Foodlab.</li>
+          </ul>
         </article>
         <img className={`${styles.shopImage} ${styles.si4}`} src="/pics/vin.webp" alt="" />
         <article className={`${styles.shopText} ${styles.st5}`}>
           <h2>Lette Løsninger</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <ul className={styles.detailsList}>
+            <li>Gavekurve til enhver anledning (også firmagaver).</li>
+            <li>Sammensæt selv en helt unik gavekurv fra vores store udvalg af delikatesser.</li>
+            <li>Adamsgårdens Pinsekasse, med årstidens lækkerier og en flaske god vin fra Portugal.</li>
+          </ul>
+          <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
         </article>
         <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/goodiebox.webp" alt="" />
         <article className={`${styles.shopText} ${styles.st6}`}>
