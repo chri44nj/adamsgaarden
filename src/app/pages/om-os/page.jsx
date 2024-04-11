@@ -15,6 +15,7 @@ export default function Aboutus() {
           <h2 className={styles.smallHeading}>Hvem er vi?</h2>
           <p>Vi, Charlotte og Frank, bor på Adamsgården og driver som ægtepar til daglig gårdbutikken og dyrker ca. 20 ha. Siden 2012 har vi været på en rejse for at forbedre vores gårdbutik og vi nyder helhjertet at være en bidragende del til lokalsamfundet.</p>
         </div>
+        <p>Adamsgården er en livsstil og vi vil gerne bidrage til at spise sundt, grønt og dansk, når det bugner af friske råvarer forår og sommer. Vores ferier bruges ofte på udvikling af gårdbutikken og besøg hos vores leverandører. Vi er derfor ofte på Samsø og i Portugal for at købe bl.a. myregin, akvavit fra Sams Island og portugisisk vin.</p>
         <div className={styles.words}>
           <span className={styles.word1}>Familie</span>
           <span className={styles.word2}>Passion</span>
