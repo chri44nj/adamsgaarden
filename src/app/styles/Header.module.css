@@ -97,6 +97,7 @@
   .headerNavigation {
     position: static;
     flex-direction: row;
+    align-items: center;
     width: fit-content;
     height: auto;
     background-color: transparent;
@@ -125,6 +126,10 @@
 
   .headerNavigation a:hover::after {
     width: 110%;
+  }
+
+  .headerNavigation a:nth-child(-n + 3):hover::after {
+    width: 0;
   }
 }
 

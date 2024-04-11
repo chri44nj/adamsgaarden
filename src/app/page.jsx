@@ -72,7 +72,7 @@ export default function Home() {
         <section className={styles.familyWords}>
           <article>
             <h2>Familie</h2>
-            <p>På Adamsgården er vi ikke kun drevet af business, men en følelse af familie og relationer. Vi tror på at styrken i vores gård kommer fra båndene mellem os alle, fra vores eget familiebaserede team til de familier, der besøger os hver uge.</p>
+            <p>På Adamsgården er vi ikke kun drevet af business, men en følelse af familie og relationer. Vi tror på, at styrken i vores gård kommer fra båndene mellem os alle, fra vores eget familiebaserede team til de familier, der besøger os hver uge.</p>
           </article>
           <article>
             <h2>Passion</h2>
