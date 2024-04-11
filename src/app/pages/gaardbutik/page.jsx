@@ -89,7 +89,15 @@ export default function Shop() {
         <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/gavekurv.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st6}`}>
           <h2>Specialiteter</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <p>Vores store udvalg af specialiteter inkludrerer blandt andet:</p>
+          <ul className={styles.detailsList}>
+            <li>Honningprodukter fra Bihuset.</li>
+            <li>Most fra Østergaard Frugtplantage.</li>
+            <li>Eddike og salatsirupper fra Samsø Madsnedkeriet.</li>
+            <li>Te og kaffe fra Te og Kaffe Specialisten.</li>
+            <li>Iskaffer og karamelsirup fra Noormann Food.</li>
+            <li>Jomfruhummersuppe, kantarelsuppe og jordskokkesuppe fra Noormann Food.</li>
+          </ul>
         </article>
         <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/delikatesser.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st7}`}>
