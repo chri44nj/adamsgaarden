@@ -59,6 +59,12 @@
   cursor: pointer;
 }
 
+.headerSocials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 #activeLink {
   border-bottom: solid 2px var(--background-color);
 }
@@ -128,7 +134,7 @@
     width: 110%;
   }
 
-  .headerNavigation a:nth-child(-n + 3):hover::after {
+  .headerSocials a:hover::after {
     width: 0;
   }
 }
