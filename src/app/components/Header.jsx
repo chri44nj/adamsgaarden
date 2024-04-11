@@ -62,6 +62,15 @@ function Header() {
       </Link>
 
       <nav className={`${styles.headerNavigation} ${menuOpen ? styles.open : ""}`}>
+        <Link href="/" onClick={() => handleCloseMenu("forside")} id={myContexts.currentPage === "forside" ? styles.activeLink : ""}>
+          Forside
+        </Link>
+        <Link href="/pages/gaardbutik" onClick={() => handleCloseMenu("gaardbutik")} id={myContexts.currentPage === "gaardbutik" ? styles.activeLink : ""}>
+          Gårdbutik
+        </Link>
+        <Link href="/pages/om-os" onClick={() => handleCloseMenu("om-os")} id={myContexts.currentPage === "om-os" ? styles.activeLink : ""}>
+          Om os
+        </Link>
         <div className={styles.headerSocials}>
           <a className="flex-row" target="_blank" href="mailto:mail@adamsgaarden.dk">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -79,15 +88,6 @@ function Header() {
             </svg>
           </a>
         </div>
-        <Link href="/" onClick={() => handleCloseMenu("forside")} id={myContexts.currentPage === "forside" ? styles.activeLink : ""}>
-          Forside
-        </Link>
-        <Link href="/pages/gaardbutik" onClick={() => handleCloseMenu("gaardbutik")} id={myContexts.currentPage === "gaardbutik" ? styles.activeLink : ""}>
-          Gårdbutik
-        </Link>
-        <Link href="/pages/om-os" onClick={() => handleCloseMenu("om-os")} id={myContexts.currentPage === "om-os" ? styles.activeLink : ""}>
-          Om os
-        </Link>
       </nav>
       <button type="button" aria-label="burger-menu" className={styles.burgerMenu} onClick={handleMenuToggle}>
         <span></span>
