@@ -86,7 +86,7 @@ export default function Shop() {
           </ul>
           <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
         </article>
-        <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/goodiebox.webp" alt="" />
+        <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/gavekurv.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st6}`}>
           <h2>Specialiteter</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
