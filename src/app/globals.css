@@ -28,7 +28,8 @@
   --accent-yellow: #ffbb33;
   --accent-green: #66aa66;
   --accent-brown: #cc7733;
-  --accent-turquoise: #55ffff;
+  --accent-beige: #d8c49a;
+  --accent-purple: #b98eff;
 
   /* Font-Sizes */
   --font-smaller: 1rem;
@@ -67,8 +68,6 @@ label,
 input,
 button,
 span {
-  overflow-wrap: break-word;
-  hyphens: auto;
   color: var(--text-color);
 }
 
@@ -84,6 +83,8 @@ h6 {
 
 p {
   max-width: 60ch;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 a {

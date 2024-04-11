@@ -1,6 +1,6 @@
 "use client";
 /** Next/React **/
-import { useState, useEffect } from "react";
+import { useState } from "react";
 /** NPM **/
 
 /** Project Imports **/
@@ -13,21 +13,6 @@ export default function Home() {
   const [testimonialNumber, setTestimonialNumber] = useState(1);
 
   /* Effects */
-  useEffect(() => {
-    // Load Facebook SDK dynamically on the client side
-    const script = document.createElement("script");
-    script.src = "https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v19.0";
-    script.async = true;
-    script.defer = true;
-    script.crossOrigin = "anonymous";
-    document.body.appendChild(script);
-  }, []);
-
-  useEffect(() => {
-    if (window.FB) {
-      window.FB.XFBML.parse();
-    }
-  }, []);
 
   /* Functions */
   const handleTestimonialClick = (direction) => {
@@ -102,7 +87,7 @@ export default function Home() {
           <div></div>
         </div>
         <section className={styles.testimonals}>
-          <h2>Hvad siger vores gæster?</h2>
+          <h2>Hvad siger vores kunder?</h2>
           {testimonials.map((testimonial, index) => testimonialNumber === index + 1 && <Testimonial key={index + 1} review={testimonial.review} stars={testimonial.stars} name={testimonial.name} platform={testimonial.platform}></Testimonial>)}
           <div className="flex-column">
             <p>
@@ -120,17 +105,6 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-          </div>
-        </section>
-        <div className={styles.breakLine}>
-          <div></div>
-        </div>
-        <section className={styles.facebook}>
-          <h2>Følg os på Facebook</h2>
-          <div class="fb-page" data-href="https://www.facebook.com/adamsgaarden" data-width="300" data-height="500" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/adamsgaarden" class="fb-xfbml-parse-ignore">
-              <a href="https://www.facebook.com/adamsgaarden">Adamsgården</a>
-            </blockquote>
           </div>
         </section>
       </div>

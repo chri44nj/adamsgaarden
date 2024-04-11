@@ -70,6 +70,9 @@
 
 .si1 {
   order: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  aspect-ratio: 1/1;
 }
 
 .st2 {
@@ -79,6 +82,9 @@
 
 .si2 {
   order: 4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  aspect-ratio: 1/1;
 }
 
 .st3 {
@@ -105,6 +111,24 @@
 
 .si5 {
   order: 10;
+}
+
+.st6 {
+  order: 11;
+  background-color: var(--accent-beige);
+}
+
+.si6 {
+  order: 12;
+}
+
+.st7 {
+  order: 13;
+  background-color: var(--accent-purple);
+}
+
+.si7 {
+  order: 14;
 }
 
 /** TABLET **/
@@ -149,6 +173,13 @@
   }
   .si4 {
     order: 7;
+  }
+
+  .st6 {
+    order: 12;
+  }
+  .si6 {
+    order: 11;
   }
 }
 
