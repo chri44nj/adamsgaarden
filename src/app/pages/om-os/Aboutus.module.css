@@ -262,6 +262,13 @@
     aspect-ratio: auto;
   }
 
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
   .flexRow * {
     font-size: var(--font-small);
   }
