@@ -56,7 +56,7 @@ export default function Shop() {
         </div>
 
         <article className={`${styles.shopText} ${styles.st3}`}>
-          <h2>Gourmet olivenolie</h2>
+          <h2>Gourmet Olivenolie</h2>
           <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal.</p>
           <p>Familien Larsen har skabt et unikt produkt - K. Larsen Gourmet Ekstra Jomfru Olivenolie:</p>
           <ul className={styles.detailsList}>
@@ -79,15 +79,6 @@ export default function Shop() {
         </article>
         <img className={`${styles.shopImage} ${styles.si4}`} src="/pics/vin.webp" alt="" />
         <article className={`${styles.shopText} ${styles.st5}`}>
-          <h2>Lette løsninger</h2>
-          <ul className={styles.detailsList}>
-            <li>Gavekurve til enhver anledning (også firmagaver). Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
-            <li>Adamsgårdens Pinsekasse, med årstidens lækkerier og en flaske god vin fra Portugal.</li>
-          </ul>
-          <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
-        </article>
-        <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/gavekurv.jpg" alt="" />
-        <article className={`${styles.shopText} ${styles.st6}`}>
           <h2>Specialiteter</h2>
           <p>Vores store udvalg af specialiteter inkludrerer blandt andet:</p>
           <ul className={styles.detailsList}>
@@ -98,8 +89,18 @@ export default function Shop() {
             <li>Iskaffer og karamelsirup fra Noormann Food.</li>
             <li>Jomfruhummersuppe, kantarelsuppe og jordskokkesuppe fra Noormann Food.</li>
           </ul>
+          <p>Alle specialiteter er nøje udvalgt. Vi har kun det, der passer ind i vores koncept, og selv ville blive glade for at få i gave.</p>
         </article>
-        <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/delikatesser.jpg" alt="" />
+        <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/delikatesser.jpg" alt="" />
+        <article className={`${styles.shopText} ${styles.st6}`}>
+          <h2>Lette løsninger</h2>
+          <ul className={styles.detailsList}>
+            <li>Gavekurve til enhver anledning (også firmagaver). Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
+            <li>Adamsgårdens Pinsekasse, med årstidens lækkerier og en flaske god vin fra Portugal.</li>
+          </ul>
+          <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
+        </article>
+        <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/gavekurv.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st7}`}>
           <h2>Grønne fingre</h2>
           <p>Vi udvider løbende vores haveafdeling med mange forskellige haveartikler, såsom:</p>
