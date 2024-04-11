@@ -41,7 +41,12 @@ export default function Shop() {
             <li>Nyopgravede kartofler.</li>
             <li>Saftige hvide og grønne asparges.</li>
             <li>Søde og sprøde grønne ærter (børn spiser dem, som var de slik).</li>
+            <li>Syrlige rabarber.</li>
+            <li>Sunde grønkål.</li>
+            <li>Gulde og grønne squash.</li>
+            <li>Persille og basilikum i potter.</li>
           </ul>
+          <p>Vores udvalg varierer altid med sæsonen.</p>
         </article>
         <div className={styles.si2}>
           <img className={styles.shopImage} src="/pics/kartofler.jpg" alt="" />
