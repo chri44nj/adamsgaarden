@@ -76,14 +76,14 @@ export default function Shop() {
           <h2>Lette Løsninger</h2>
           <ul className={styles.detailsList}>
             <li>Gavekurve til enhver anledning (også firmagaver).</li>
-            <li>Sammensæt selv en helt unik gavekurv fra vores store udvalg af delikatesser.</li>
+            <li>Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
             <li>Adamsgårdens Pinsekasse, med årstidens lækkerier og en flaske god vin fra Portugal.</li>
           </ul>
           <p>Bestil gerne på forhånd - så har vi det klar, når du kommer!</p>
         </article>
         <img className={`${styles.shopImage} ${styles.si5}`} src="/pics/goodiebox.webp" alt="" />
         <article className={`${styles.shopText} ${styles.st6}`}>
-          <h2>Delikatesser</h2>
+          <h2>Specialiteter</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
         </article>
         <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/delikatesser.jpg" alt="" />

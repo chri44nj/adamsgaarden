@@ -175,6 +175,11 @@
   margin-bottom: 0.5rem;
 }
 
+#arranged {
+  margin-top: 0.25rem;
+  opacity: 50%;
+}
+
 .flexColumn {
   display: flex;
   flex-direction: column;
@@ -204,6 +209,10 @@
   height: 1px;
   width: 100%;
   margin: 1rem;
+}
+
+.arranged {
+  font-size: var(--font-smaller);
 }
 
 /** TABLET **/
@@ -253,12 +262,6 @@
     aspect-ratio: auto;
   }
 
-  .openingHoursGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
-  }
-
   .flexRow * {
     font-size: var(--font-small);
   }
@@ -277,6 +280,13 @@
     padding-bottom: 4rem;
     padding-inline: 10%;
     align-items: center;
+  }
+
+  .openingHoursGrid {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
   }
 
   .us {

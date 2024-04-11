@@ -91,7 +91,7 @@ export default function Aboutus() {
         <div className={styles.openingHoursGrid}>
           <article>
             <h3 className={styles.smallHeading}>Sommer</h3>
-            <p className={styles.period}>1. juni - 31. august</p>
+            <p className={styles.period}>4. maj - 3. august</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -114,8 +114,8 @@ export default function Aboutus() {
             </div>
           </article>
           <article>
-            <h3 className={styles.smallHeading}>Vinter</h3>
-            <p className={styles.period}>1. september - 31. maj</p>
+            <h3 className={styles.smallHeading}>Bær & Grøntsager</h3>
+            <p className={styles.period}>4. maj - 3. august</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -127,15 +127,40 @@ export default function Aboutus() {
                 <p>Søndag:</p>
               </div>
               <div className={styles.flexColumn}>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
                 <p>09:00 - 18:00</p>
                 <p>09:00 - 18:00</p>
               </div>
             </div>
+          </article>
+          <article>
+            <h3 className={styles.smallHeading}>Vinter</h3>
+            <p className={styles.period}>2. november - 21. december</p>
+            <div className="flex-row">
+              <div className={styles.flexColumn}>
+                <p>Mandag:</p>
+                <p>Tirsdag:</p>
+                <p>Onsdag:</p>
+                <p>Torsdag:</p>
+                <p>Fredag:</p>
+                <p>Lørdag:</p>
+                <p>Søndag:</p>
+              </div>
+              <div className={styles.flexColumn}>
+                <p>lukket</p>
+                <p>lukket</p>
+                <p>lukket</p>
+                <p>lukket</p>
+                <p>13:00 - 17:30</p>
+                <p>09:30 - 13:00</p>
+                <p>lukket</p>
+              </div>
+            </div>
+            <p id={styles.arranged}>(Evt. åbent efter aftale)</p>
           </article>
         </div>
       </section>
