@@ -36,7 +36,7 @@ export default function Shop() {
         <img className={`${styles.shopImage} ${styles.st1}`} src="/pics/jordbær.jpg" alt="" />
 
         <article className={`${styles.shopText} ${styles.st2}`}>
-          <h2>Friske grøntsager</h2>
+          <h2>Danske, friske grøntsager</h2>
           <ul className={styles.detailsList}>
             <li>Nyopgravede kartofler.</li>
             <li>Saftige hvide og grønne asparges.</li>
@@ -56,7 +56,7 @@ export default function Shop() {
         </div>
 
         <article className={`${styles.shopText} ${styles.st3}`}>
-          <h2>Gourmet Olivenolie</h2>
+          <h2>Gourmet olivenolie</h2>
           <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal. </p>
           <ul className={styles.detailsList}>
             <li>100% koldpresset og ekstra jomfru olivenolie.</li>
@@ -78,7 +78,7 @@ export default function Shop() {
         </article>
         <img className={`${styles.shopImage} ${styles.si4}`} src="/pics/vin.webp" alt="" />
         <article className={`${styles.shopText} ${styles.st5}`}>
-          <h2>Lette Løsninger</h2>
+          <h2>Lette løsninger</h2>
           <ul className={styles.detailsList}>
             <li>Gavekurve til enhver anledning (også firmagaver).</li>
             <li>Sammensæt selv en helt unik gavekurv fra vores store udvalg af specialiteter.</li>
@@ -93,7 +93,7 @@ export default function Shop() {
         </article>
         <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/delikatesser.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st7}`}>
-          <h2>Grønne Fingre</h2>
+          <h2>Grønne fingre</h2>
           <p>Vi udvider løbende vores haveafdeling med mange forskellige haveartikler, såsom:</p>
           <ul className={styles.detailsList}>
             <li>Potte- og kokusmuld.</li>
