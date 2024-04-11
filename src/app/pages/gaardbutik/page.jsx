@@ -1,3 +1,4 @@
+"use client";
 /** Next/React **/
 
 /** NPM **/
@@ -5,6 +6,7 @@
 /** Project Imports **/
 import "../../globals.css";
 import styles from "./Shop.module.css";
+import AreWeOpen from "../../components/AreWeOpen";
 
 export default function Shop() {
   return (
@@ -19,6 +21,8 @@ export default function Shop() {
         <p>På Adamsgården har der været gårdbutik siden 2012, og lige fra start har det været et familieprojekt, hvor børnene Katrine og Christoffer har deltaget i udviklingen og arbejdet.</p>
         <p>Hos os er det vigtigt, at kvaliteten af ikke mindst produkterne, men også oplevelsen af besøget hos os er i top, hvorfor kunderne altid kommer først - så træd indenfor og tag et kig!</p>
       </div>
+
+      <AreWeOpen openContent="Vi har åbent!" closedContent="Vi har lukket."></AreWeOpen>
 
       <section className={styles.shop}>
         <article className={`${styles.shopText} ${styles.st1}`}>
