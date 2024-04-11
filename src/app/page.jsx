@@ -76,7 +76,7 @@ export default function Home() {
           </article>
           <article>
             <h2>Passion</h2>
-            <p>Drivkraften bag alt vi gør på Adamsgården er passion. Passion til landbrug og den exceptionelle oplevelse. Det er noget, vi er overbeviste om skinner igennem i hver eneste grøntsag, frugt og produkt, vi dyrker og udbyder.</p>
+            <p>Drivkraften bag alt vi gør på Adamsgården er passion; passion til landbrug og den exceptionelle oplevelse. Det er noget, vi er overbeviste om skinner igennem i hver eneste grøntsag, frugt og produkt, vi dyrker og udbyder.</p>
           </article>
           <article>
             <h2>Dedikation</h2>
