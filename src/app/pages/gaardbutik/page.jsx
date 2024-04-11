@@ -18,11 +18,11 @@ export default function Shop() {
       </section>
 
       <div className={styles.introduction}>
-        <p>På Adamsgården har der været gårdbutik siden 2012, og lige fra start har det været et familieprojekt, hvor børnene Katrine og Christoffer har deltaget i udviklingen og arbejdet.</p>
-        <p>Hos os er det vigtigt, at kvaliteten af ikke mindst produkterne, men også oplevelsen af besøget hos os er i top, hvorfor kunderne altid kommer først - så træd indenfor og tag et kig!</p>
+        <p>Charlotte og Frank bor på Adamsgården i Jyderup. Her har der været gårdbutik siden 2012, og lige fra start har det været et familieprojekt, hvor børnene Katrine og Christoffer har deltaget i udviklingen og arbejdet.</p>
+        <p>For os er det vigtigt, at kvaliteten af ikke mindst produkterne, men også oplevelsen af besøget er i top, hvorfor kunderne altid kommer først - så træd indenfor og tag et kig!</p>
       </div>
 
-      <AreWeOpen openContent="Vi har åbent!" closedContent="Vi har lukket."></AreWeOpen>
+      <AreWeOpen openContent="Vi har åbent!" closedContent="Vi har lukket. Kom igen i morgen!"></AreWeOpen>
 
       <section className={styles.shop}>
         <article className={`${styles.shopText} ${styles.st1}`}>
@@ -51,8 +51,14 @@ export default function Shop() {
         </div>
 
         <article className={`${styles.shopText} ${styles.st3}`}>
-          <h2>Smagfuld Olivenolie</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <h2>Gourmet Olivenolie</h2>
+          <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i Alentejo-regionen, midt mellem Lissabon og Algarve-kysten i det sydlige Portugal. </p>
+          <ul className={styles.detailsList}>
+            <li>100% koldpresset og ekstra jomfru olivenolie.</li>
+            <li>Gourmet: kun 3-4 % af al olivenolie i EU må betegnes Gourmet (max 0,3 % syreindhold)</li>
+            <li>Velegnet til alle former for madlavning.</li>
+            <li>Mild, rund og blød smag.</li>
+          </ul>
         </article>
         <img className={`${styles.shopImage} ${styles.si3}`} src="/pics/olie.webp" alt="" />
 
