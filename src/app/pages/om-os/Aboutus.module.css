@@ -70,6 +70,13 @@
   z-index: -1;
 }
 
+.introduction {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color-alt);
+  padding-top: 1rem;
+}
+
 .shop {
   padding: 1rem;
   display: grid;
@@ -134,6 +141,10 @@
 }
 
 @media only screen and (min-width: 900px) {
+  .introduction {
+    padding-top: 4rem;
+  }
+
   .shop {
     padding: 4rem 10%;
   }
