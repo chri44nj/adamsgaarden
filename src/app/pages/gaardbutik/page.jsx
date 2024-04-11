@@ -18,15 +18,21 @@ export default function Shop() {
       <section className={styles.shop}>
         <article className={`${styles.shopText} ${styles.st1}`}>
           <h2>Solmodne bær</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <ul className={styles.detailsList}>
+            <li>Danske jordbær, der smager af sol og sommer.</li>
+            <li>Søde kirsebær plukket i Adamsgårdens frugthave.</li>
+          </ul>
         </article>
-        <div className={styles.si1}>
-          <img className={styles.shopImage} src="/pics/kirsebær.jpg" alt="" />
-          <img className={styles.shopImage} src="/pics/jordbær.jpg" alt="" />
-        </div>
+
+        <img className={`${styles.shopImage} ${styles.st1}`} src="/pics/jordbær.jpg" alt="" />
+
         <article className={`${styles.shopText} ${styles.st2}`}>
           <h2>Friske grøntsager</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <ul className={styles.detailsList}>
+            <li>Nyopgravede kartofler.</li>
+            <li>Saftige hvide og grønne asparges.</li>
+            <li>Søde og sprøde grønne ærter (børn spiser dem, som var de slik).</li>
+          </ul>
         </article>
         <div className={styles.si2}>
           <img className={styles.shopImage} src="/pics/kartofler.jpg" alt="" />
@@ -57,8 +63,16 @@ export default function Shop() {
         </article>
         <img className={`${styles.shopImage} ${styles.si6}`} src="/pics/delikatesser.jpg" alt="" />
         <article className={`${styles.shopText} ${styles.st7}`}>
-          <h2>Haveartikler</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo perferendis cumque beatae velit ea iusto totam in at! Sequi rerum ab quaerat ad minima delectus, possimus consequatur atque consequuntur, repellat iste vitae harum ipsam itaque perferendis expedita placeat blanditiis dolorem.</p>
+          <h2>Grønne Fingre</h2>
+          <p>Vi udvider løbende vores haveafdeling med mange forskellige haveartikler, såsom:</p>
+          <ul className={styles.detailsList}>
+            <li>Potte- og kokusmuld.</li>
+            <li>Så- og priklejord.</li>
+            <li>Have- og arbejdshandsker og beskæresakse.</li>
+            <li>Kartoffelpotter, plantetønder og fuglehuse.</li>
+            <li>Nematoder til biologisk bekæmpelse af skadedyr.</li>
+          </ul>
+          <p>Og meget mere; vi kan skaffe nærmest alt til din have, så spørg endelig!</p>
         </article>
         <img className={`${styles.shopImage} ${styles.si7}`} src="/pics/have.jpg" alt="" />
       </section>

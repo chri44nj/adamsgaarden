@@ -57,6 +57,11 @@
   font-size: var(--font-larger);
 }
 
+.detailsList {
+  list-style-position: inside;
+  margin-block: 1rem;
+}
+
 .shopImage {
   width: 100%;
   height: 100%;

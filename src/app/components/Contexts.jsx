@@ -5,7 +5,7 @@ export const SetMyContexts = createContext();
 
 function Contexts({ children }) {
   const [myContexts, setMyContexts] = useState({
-    currentPage: "forside",
+    currentPage: "",
   });
   return (
     <SetMyContexts.Provider value={setMyContexts}>
