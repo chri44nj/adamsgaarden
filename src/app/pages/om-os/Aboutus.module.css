@@ -146,6 +146,7 @@
 .ut2 {
   order: 3;
   background-color: var(--accent-yellow);
+  margin-top: 1rem;
 }
 
 .ui2 {
@@ -236,6 +237,10 @@
 
   .us {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ut2 {
+    margin-top: 0;
   }
 
   .us p,

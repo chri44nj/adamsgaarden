@@ -87,26 +87,24 @@
 
 .si1 {
   order: 2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  aspect-ratio: 1/1;
 }
 
 .st2 {
   order: 3;
   background-color: var(--accent-green);
+  margin-top: 1rem;
 }
 
 .si2 {
   order: 4;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  aspect-ratio: 1/1;
 }
 
 .st3 {
   order: 5;
   background-color: var(--accent-yellow);
+  margin-top: 1rem;
 }
 
 .si3 {
@@ -116,6 +114,7 @@
 .st4 {
   order: 7;
   background-color: var(--accent-blue);
+  margin-top: 1rem;
 }
 .si4 {
   order: 8;
@@ -124,6 +123,7 @@
 .st5 {
   order: 9;
   background-color: var(--accent-brown);
+  margin-top: 1rem;
 }
 
 .si5 {
@@ -133,6 +133,7 @@
 .st6 {
   order: 11;
   background-color: var(--accent-beige);
+  margin-top: 1rem;
 }
 
 .si6 {
@@ -142,6 +143,7 @@
 .st7 {
   order: 13;
   background-color: var(--accent-purple);
+  margin-top: 1rem;
 }
 
 .si7 {
@@ -157,6 +159,15 @@
 
   .shop {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .st2,
+  .st3,
+  .st4,
+  .st5,
+  .st6,
+  .st7 {
+    margin-top: 0;
   }
 
   .shop p,
