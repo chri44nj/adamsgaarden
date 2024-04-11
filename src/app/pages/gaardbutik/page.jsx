@@ -15,6 +15,11 @@ export default function Shop() {
         <img className={styles.heroBackground} src="/pics/shop.webp" alt="shop" />
       </section>
 
+      <div className={styles.introduction}>
+        <p>På Adamsgården har der været gårdbutik siden 2012, og lige fra start har det været et familieprojekt, hvor børnene Katrine og Christoffer har deltaget i udviklingen og arbejdet.</p>
+        <p>Hos os er det vigtigt, at kvaliteten af ikke mindst produkterne, men også oplevelsen af besøget hos os er i top, hvorfor kunderne altid kommer først - så træd indenfor og tag et kig!</p>
+      </div>
+
       <section className={styles.shop}>
         <article className={`${styles.shopText} ${styles.st1}`}>
           <h2>Solmodne bær</h2>

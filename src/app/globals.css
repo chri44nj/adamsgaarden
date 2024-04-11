@@ -76,8 +76,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Just Another Hand";
+h6,
+span {
   font-family: "Poppins", sans-serif;
 }
 
