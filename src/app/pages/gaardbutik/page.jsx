@@ -22,7 +22,7 @@ export default function Shop() {
         <p>For os er det vigtigt, at kvaliteten af ikke mindst produkterne, men også oplevelsen af besøget er i top, hvorfor kunderne altid kommer først - så træd indenfor og tag et kig!</p>
       </div>
 
-      <AreWeOpen openContent="Vi har åbent! Kom glad." closedContent="Vi har lukket. Se vores åbningstider."></AreWeOpen>
+      <AreWeOpen openContent="Vi har åbent! Kom glad." closedContent="Vi har lukket. Se åbningstiderne."></AreWeOpen>
 
       <section className={styles.shop}>
         <article className={`${styles.shopText} ${styles.st1}`}>
