@@ -7,7 +7,7 @@ export default function Aboutus() {
       <section className={styles.hero}>
         <h1>Om os</h1>
         {/* <p>Adamsgården har været i slægten i over 100 år og drives til daglig af Charlotte og Frank, samt Charlottes børn Christoffer og Katrine, når vi har fint besøg. Hos Adamsgården går familie, passion og dedikation hånd i hånd, og det afspejles i den altid høje kvalitet af vores produkter.</p> */}
-        <img className={styles.heroBackground} src="/pics/aboutus.jpg" alt="charlotte-and-frank" />
+        <img className={styles.heroBackground} src="/pics/aboutus.webp" alt="charlotte-and-frank" />
       </section>
 
       <section className={styles.introduction}>
@@ -15,7 +15,7 @@ export default function Aboutus() {
           <h2 className={styles.smallHeading}>Hvem er vi?</h2>
           <p>Vi, Charlotte og Frank, bor på Adamsgården og driver som ægtepar til daglig gårdbutikken og dyrker ca. 20 ha. Siden 2012 har vi været på en rejse for at forbedre vores gårdbutik og vi nyder helhjertet at være en bidragende del til lokalsamfundet.</p>
         </div>
-        <p>Adamsgården er en livsstil og vi vil gerne bidrage til at spise sundt, grønt og dansk, når det bugner af friske råvarer forår og sommer. Vores ferier bruges ofte på udvikling af gårdbutikken og besøg hos vores leverandører. Vi er derfor ofte på Samsø og i Portugal for at købe bl.a. myregin, akvavit fra Sams Island og portugisisk vin.</p>
+        <p>Adamsgården er en livsstil og vi vil gerne bidrage til at spise sundt, grønt og dansk, når det bugner af friske råvarer forår og sommer. Vores ferier bruges ofte på udvikling af gårdbutikken og besøg hos vores leverandører. Vi er derfor ofte på Samsø og i Portugal for at købe bl.a. myregin fra Sams Island og portugisisk vin.</p>
         <div className={styles.words}>
           <span className={styles.word1}>Familie</span>
           <span className={styles.word2}>Passion</span>
@@ -29,19 +29,19 @@ export default function Aboutus() {
           <h2>Charlotte Ibsen</h2>
           <p>Charlotte er uddannet agronom og har arbejdet som landbrugsskolelærer i 25 år. Når hun ikke passer landbrug og gårdbutik, arbejder hun med salg og rådgivning til danske gartnerier. I fritiden slapper hun af i sit sommerhus ved Sejerøbugten, spiller golf, dyrker yoga og nyder at være sammen med familie og venner.</p>
         </article>
-        <img className={`${styles.usImage} ${styles.ui1}`} src="/pics/charlotte.jpg" alt="" />
+        <img className={`${styles.usImage} ${styles.ui1}`} src="/pics/charlotte.webp" alt="" />
 
         <article className={`${styles.usText} ${styles.ut2}`}>
           <h2>Frank Lyngsø</h2>
           <p>Frank er uddannet ingeniør og er forretningschef i NIRAS tillige med forskellige bestyrelsesposter. Derfor er det det ofte kun i weekenderne, at Frank befinder sig i gårdbutikken, men du kan være sikker på altid at få et stort smil med, når du møder ham.</p>
         </article>
-        <img className={`${styles.usImage} ${styles.ui2}`} src="/pics/frank.jpg" alt="" />
+        <img className={`${styles.usImage} ${styles.ui2}`} src="/pics/frank.webp" alt="" />
       </section>
 
       <section className={styles.partnership}>
         <div>
           <h2 className={styles.smallHeading}>Adamsgårdens samarbejdspartnere</h2>
-          <p>Vi dyrker selv bær- og grøntsager lokalt på gården, men supplerer med frugt og grønt fra en håndfuld nøje udvalgte lokale producenter. En tak for godt samarbejde lyder til:</p>
+          <p>Vi dyrker selv bær- og grøntsager lokalt på gården, men supplerer med bær og grønt fra en håndfuld nøje udvalgte lokale producenter. En tak for godt samarbejde lyder til:</p>
         </div>
         <div className={styles.partners}>
           <a className={styles.partner1} target="_blank" href="https://www.facebook.com/Torpelund4/?locale=da_DK">
@@ -88,11 +88,14 @@ export default function Aboutus() {
       </section>
 
       <section className={styles.openingHours}>
-        <h2 className={styles.smallHeading}>Gårdbutikkens åbningstider varierer med årstiderne</h2>
+        <p className={styles.smallHeading2}>Åbningstider varierer med årstiderne</p>
         <div className={styles.openingHoursGrid}>
           <article>
-            <h3 className={styles.smallHeading}>Sommer</h3>
-            <p className={styles.period}>4. maj - 3. august</p>
+            <h3 className={styles.smallHeading}>
+              Gårdbutikken <br />
+              Sommer 2024
+            </h3>
+            <p className={styles.period}>9. maj - 3. august</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -115,8 +118,10 @@ export default function Aboutus() {
             </div>
           </article>
           <article>
-            <h3 className={styles.smallHeading}>Bær & Grøntsager</h3>
-            <p className={styles.period}>4. maj - 3. august</p>
+            <h3 className={styles.smallHeading}>
+              Bær & Grøntsager <br /> Sommer 2024{" "}
+            </h3>
+            <p className={styles.period}>9. maj - 3. august</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -139,7 +144,11 @@ export default function Aboutus() {
             </div>
           </article>
           <article>
-            <h3 className={styles.smallHeading}>Vinter</h3>
+            <h3 className={styles.smallHeading}>
+              {" "}
+              Gårdbutikken <br />
+              Vinter 2024
+            </h3>
             <p className={styles.period}>2. november - 21. december</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>

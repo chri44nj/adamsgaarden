@@ -41,11 +41,14 @@
   font-size: var(--font-small);
 }
 
-.shop {
+.shopWrapper {
   padding: 1rem;
+  background-color: var(--background-color-alt);
+}
+
+.shop {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--background-color-alt);
 }
 
 .shopText {
@@ -186,8 +189,10 @@
     align-items: center;
   }
 
-  .shop {
-    padding: 4rem 10%;
+  .shopWrapper {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    padding-inline: 10%;
   }
 
   .shopText {

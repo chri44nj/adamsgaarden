@@ -31,6 +31,11 @@
   font-size: var(--font-small);
 }
 
+.smallHeading2 {
+  font-size: var(--font-smaller);
+  text-decoration: underline;
+}
+
 .introduction {
   display: flex;
   flex-direction: column;

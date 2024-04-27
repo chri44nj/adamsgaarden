@@ -72,15 +72,15 @@ export default function Home() {
         <section className={styles.familyWords}>
           <article>
             <h2>Familie</h2>
-            <p>På Adamsgården er vi ikke kun drevet af business, men en følelse af familie og relationer. Vi tror på, at styrken i vores gård kommer fra båndene mellem os alle, fra vores eget familiebaserede team til de familier, der besøger os hver uge.</p>
+            <p>Adamsgården har altid været et familieprojekt. Vi tror på, at styrken i vores gård kommer fra en stærk familie, hvor alle er parate til at give en hjælpende hånd.</p>
           </article>
           <article>
             <h2>Passion</h2>
-            <p>Drivkraften bag alt vi gør på Adamsgården er passion; passion til landbrug og den exceptionelle oplevelse. Det er noget, vi er overbeviste om skinner igennem i hver eneste grøntsag, frugt og produkt, vi dyrker og udbyder.</p>
+            <p>Drivkraften bag alt hvad vi gør på Adamsgården er passion; passion til landbruget, gårdbutikken og naturen. Det er noget, vi håber skinner igennem på kvaliteten og udvalget af hvert eneste produkt, som vi tilbyder.</p>
           </article>
           <article>
             <h2>Dedikation</h2>
-            <p>For os handler dedikation ikke kun om at arbejde hårdt, men om at arbejde klogt og med formål. Vi er dedikerede til at levere de mest smagfulde produkter til vores kunder, samtidig med at vi støtter vores lokalsamfund og landbrugssamfundet som helhed.</p>
+            <p>For os handler dedikation ikke kun om hårdt arbejde, men om at arbejde med et formål. Vi er dedikerede til at levere de mest smagfulde kvalitetsprodukter til vores kunder, samtidig med at vi støtter vores lokalsamfund og landbrugserhvervet som helhed.</p>
           </article>
         </section>
         <div className={styles.breakLine}>
