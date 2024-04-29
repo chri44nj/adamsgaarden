@@ -61,7 +61,7 @@ export default function Shop() {
             <p>Familien Larsen har skabt et unikt produkt - K. Larsen Gourmet Ekstra Jomfru Olivenolie:</p>
             <ul className={styles.detailsList}>
               <li>100% koldpresset olivensaft.</li>
-              <li>Gourmet: kun 3-4 % af al olivenolie i EU må betegnes Gourmet (max 0,3 % syreindhold).</li>
+              <li>Gourmet betyder at syreindholdet er max 0,3 % og derfor er kvaliteten helt i top.</li>
               <li>Velegnet til alle former for madlavning.</li>
               <li>Mild, rund og blød smag.</li>
             </ul>
