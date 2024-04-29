@@ -28,8 +28,8 @@ export default function Shop() {
           <article className={`${styles.shopText} ${styles.st1}`}>
             <h2>Solmodne, danske jordbær</h2>
             <ul className={styles.detailsList}>
-              <li>Danske jordbær, der smager af sol og sommer. Jordbærsorterne varierer fra tidlige til sene sorter med lidt forskellig smag og udseende.</li>
-              <li>Jordbær fra remonterende sorter, der giver bær hele sommeren. Disse bær er meget holdbare, og er velegnet til pynt og kager.</li>
+              <li>Danske jordbær, der smager af sol og sommer.</li>
+              <li>Jordbærsorterne varierer fra tidlige til sene sorter med lidt forskellig smag og udseende. Der vil også være jordbær fra remonterende sorter, der bliver ved med at blomstre og giver bær hele sommeren. Disse bær er meget holdbare, og er velegnet til pynt og kager.</li>
             </ul>
           </article>
 
@@ -57,7 +57,7 @@ export default function Shop() {
 
           <article className={`${styles.shopText} ${styles.st3}`}>
             <h2>Gourmet Olivenolie</h2>
-            <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja, i Alentejo-regionen i det sydlige Portugal.</p>
+            <p> Dorte og Karsten Larsen stammer begge fra Vestsjælland, og driver sammen med deres børn et større landbrug med en stor olivenproduktion ved Beja i det sydlige Portugal.</p>
             <p>Familien Larsen har skabt et unikt produkt - K. Larsen Gourmet Ekstra Jomfru Olivenolie:</p>
             <ul className={styles.detailsList}>
               <li>100% koldpresset olivensaft.</li>
@@ -73,7 +73,7 @@ export default function Shop() {
             <p>Fra håndlavet specialøl på Vestsjælland til vinområdet Alentejo i det sydlige Portugal, har vi på første hånd oplevet vores leverandørers passion for deres håndværk. I gårdbutikken har vi samlet vores yndlingsoplevelser på flaske, altid baseret på de samme kriterier: god smag og en sand bedst-til-prisen-kvalitet.</p>
             <ul className={styles.detailsList}>
               <li>Mere end 12 forskellige fantastiske, portugisiske vine.</li>
-              <li>Lokalt og håndbrygget specialøl fra Den gamle Brygger i Bjergsted. Vi har 10-12 forskellige stilarter, fra undergæret pilsner til overgæret quadruple.</li>
+              <li>Lokalt og håndbrygget specialøl fra Den gamle Brygger i Bjergsted.</li>
               <li>Stort udvalg af forskellig spiritus og cocktails fra Sams Island og Noormann.</li>
             </ul>
           </article>
