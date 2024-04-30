@@ -1,5 +1,9 @@
 /** MOBILE **/
 
+.frontPageMain p {
+  font-size: var(--font-smaller);
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -20,9 +24,6 @@
 
 .hero p {
   font-size: var(--font-small);
-}
-
-.hero p:first-of-type {
   font-weight: bold;
   padding-top: 80px;
   text-transform: uppercase;
@@ -138,11 +139,15 @@
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
+  .frontPageMain p {
+    font-size: var(--font-small);
+  }
+
   .hero h1 {
     font-size: 4rem;
   }
 
-  .hero p:first-of-type {
+  .hero p {
     padding-top: 100px;
   }
 

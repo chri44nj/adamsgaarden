@@ -1,3 +1,7 @@
+.shopMain p {
+  font-size: var(--font-smaller);
+}
+
 .hero {
   position: relative;
   height: 100vh;
@@ -38,7 +42,7 @@
 
 .introduction p {
   padding-inline: 1rem;
-  font-size: var(--font-small);
+  font-size: var(--font-smaller);
 }
 
 .shopWrapper {
@@ -156,6 +160,10 @@
 /** TABLET **/
 
 @media only screen and (min-width: 600px) {
+  .shopMain p {
+    font-size: var(--font-small);
+  }
+
   .hero h1 {
     font-size: 4rem;
   }
