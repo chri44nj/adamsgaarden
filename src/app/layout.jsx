@@ -1,5 +1,6 @@
 /** Next/React **/
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 /** NPM **/
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <body>
             <Header></Header>
             {children}
+            <Analytics />
             <Footer></Footer>
           </body>
         </html>
