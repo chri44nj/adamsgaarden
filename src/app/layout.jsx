@@ -21,10 +21,10 @@ export default function RootLayout({ children }) {
     <>
       <Contexts>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.jpg" />
           <meta property="og:title" content={metadata.title} />
           <meta property="og:description" content={metadata.description} />
-          <meta property="og:image" content={metadata.image} />
+          <meta property="og:image" content="/pics/linkImage.png" />
           <meta property="og:url" content={typeof window !== "undefined" && window.location.href} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="da_DK" />
