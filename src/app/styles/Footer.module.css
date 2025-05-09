@@ -79,7 +79,39 @@
   max-width: 10rem;
 }
 
-.copyright {
+.buttonHeading {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonHeading:hover svg {
+  animation: bounce-left-right 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bounce-left-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-4px);
+  }
+}
+
+.seasonWrapper {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.seasonWrapper.fade-out {
+  opacity: 0;
+}
+
+.period {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 /** TABLET **/

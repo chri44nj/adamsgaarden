@@ -1,6 +1,6 @@
 "use client";
 /** Next/React **/
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 /** NPM **/
 
@@ -12,6 +12,30 @@ function Footer() {
     window.scrollTo({
       top: 0,
     });
+  };
+
+  const [season, setSeason] = useState("sommer");
+
+  useEffect(() => {
+    const now = new Date(); // 🟢 Uses the current date
+    const year = now.getFullYear();
+
+    const sommerStart1 = new Date(year, 0, 1); // Jan 1
+    const sommerEnd1 = new Date(year, 6, 13); // July 13 (inclusive)
+    const vinterStart = new Date(year, 6, 14); // July 14
+    const vinterEnd = new Date(year, 11, 20); // Dec 20 (inclusive)
+    const sommerStart2 = new Date(year, 11, 21); // Dec 21
+    const sommerEnd2 = new Date(year, 11, 31); // Dec 31
+
+    if ((now >= sommerStart1 && now <= sommerEnd1) || (now >= sommerStart2 && now <= sommerEnd2)) {
+      setSeason("sommer");
+    } else if (now >= vinterStart && now <= vinterEnd) {
+      setSeason("vinter");
+    }
+  }, []);
+
+  const toggleSeason = () => {
+    setSeason((prev) => (prev === "sommer" ? "vinter" : "sommer"));
   };
 
   return (
@@ -54,30 +78,65 @@ function Footer() {
           </div>
         </article>
         <article>
-          <h2>Gårdbutikken</h2>
-          <div className="flex-row">
-            <div className={styles.flexColumn}>
-              <p>Mandag:</p>
-              <p>Tirsdag:</p>
-              <p>Onsdag:</p>
-              <p>Torsdag:</p>
-              <p>Fredag:</p>
-              <p>Lørdag:</p>
-              <p>Søndag:</p>
+          <button className={styles.buttonHeading} onClick={toggleSeason} title={season === "sommer" ? "Klik for at se vintertider" : "Klik for at se sommertider"}>
+            <h2>Gårdbutikken ({season})</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+              <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+            </svg>
+          </button>
+          {season === "sommer" ? (
+            <div>
+              <p className={styles.period}>19. maj - 13. juli</p>
+              <div className="flex-row">
+                <div className={styles.flexColumn}>
+                  <p>Mandag:</p>
+                  <p>Tirsdag:</p>
+                  <p>Onsdag:</p>
+                  <p>Torsdag:</p>
+                  <p>Fredag:</p>
+                  <p>Lørdag:</p>
+                  <p>Søndag:</p>
+                </div>
+                <div className={styles.flexColumn}>
+                  <p>15:30 - 18:00</p>
+                  <p>15:30 - 18:00</p>
+                  <p>15:30 - 18:00</p>
+                  <p>15:30 - 18:00</p>
+                  <p>15:30 - 18:00</p>
+                  <p>09:00 - 18:00</p>
+                  <p>09:00 - 18:00</p>
+                </div>
+              </div>
             </div>
-            <div className={styles.flexColumn}>
-              <p>15:30 - 18:00</p>
-              <p>15:30 - 18:00</p>
-              <p>15:30 - 18:00</p>
-              <p>15:30 - 18:00</p>
-              <p>15:30 - 18:00</p>
-              <p>09:00 - 18:00</p>
-              <p>09:00 - 18:00</p>
+          ) : (
+            <div>
+              <p className={styles.period}>1. november - 20. december</p>
+              <div className="flex-row">
+                <div className={styles.flexColumn}>
+                  <p>Mandag:</p>
+                  <p>Tirsdag:</p>
+                  <p>Onsdag:</p>
+                  <p>Torsdag:</p>
+                  <p>Fredag:</p>
+                  <p>Lørdag:</p>
+                  <p>Søndag:</p>
+                </div>
+                <div className={styles.flexColumn}>
+                  <p>Lukket</p>
+                  <p>Lukket</p>
+                  <p>Lukket</p>
+                  <p>Lukket</p>
+                  <p>13:00 - 17:30</p>
+                  <p>09:30 - 13:00</p>
+                  <p>Lukket</p>
+                </div>
+              </div>
             </div>
-          </div>
+          )}
         </article>
         <article>
           <h2>Bær & Grøntsager</h2>
+          <p className={styles.period}>10. maj - 13. juli</p>
           <div className="flex-row">
             <div className={styles.flexColumn}>
               <p>Mandag:</p>
@@ -110,7 +169,7 @@ function Footer() {
         <a className={styles.smileyReport} target="_blank" href="https://www.findsmiley.dk/772629">
           <img src="/pics/smiley-report.webp" alt="smiley-report" />
         </a>
-        <p className={styles.copyright}>&copy; 2024 Adamsgården I/S Gårdbutik</p>
+        <p>&copy; 2024 Adamsgården I/S Gårdbutik</p>
       </section>
       <img className={styles.footerBackgroundImage} src="/pics/droneshot.webp" alt="droneshot" />
     </footer>

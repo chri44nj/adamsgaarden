@@ -92,10 +92,9 @@ export default function Aboutus() {
         <div className={styles.openingHoursGrid}>
           <article>
             <h3 className={styles.smallHeading}>
-              Gårdbutikken <br />
-              Sommer 2024
+              Bær & Grøntsager <br /> Sommer 2025{" "}
             </h3>
-            <p className={styles.period}>9. maj - 3. august</p>
+            <p className={styles.period}>10. maj - 13. juli</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -107,11 +106,11 @@ export default function Aboutus() {
                 <p>Søndag:</p>
               </div>
               <div className={styles.flexColumn}>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
-                <p>15:30 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
+                <p>09:00 - 18:00</p>
                 <p>09:00 - 18:00</p>
                 <p>09:00 - 18:00</p>
               </div>
@@ -119,9 +118,10 @@ export default function Aboutus() {
           </article>
           <article>
             <h3 className={styles.smallHeading}>
-              Bær & Grøntsager <br /> Sommer 2024{" "}
+              Gårdbutikken <br />
+              Sommer 2025
             </h3>
-            <p className={styles.period}>9. maj - 3. august</p>
+            <p className={styles.period}>19. maj - 13. juli</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
@@ -133,11 +133,11 @@ export default function Aboutus() {
                 <p>Søndag:</p>
               </div>
               <div className={styles.flexColumn}>
-                <p>09:00 - 18:00</p>
-                <p>09:00 - 18:00</p>
-                <p>09:00 - 18:00</p>
-                <p>09:00 - 18:00</p>
-                <p>09:00 - 18:00</p>
+                <p>15:30 - 18:00</p>
+                <p>15:30 - 18:00</p>
+                <p>15:30 - 18:00</p>
+                <p>15:30 - 18:00</p>
+                <p>15:30 - 18:00</p>
                 <p>09:00 - 18:00</p>
                 <p>09:00 - 18:00</p>
               </div>
@@ -147,9 +147,9 @@ export default function Aboutus() {
             <h3 className={styles.smallHeading}>
               {" "}
               Gårdbutikken <br />
-              Vinter 2024
+              Vinter 2025
             </h3>
-            <p className={styles.period}>2. november - 21. december</p>
+            <p className={styles.period}>1. november - 20. december</p>
             <div className="flex-row">
               <div className={styles.flexColumn}>
                 <p>Mandag:</p>
