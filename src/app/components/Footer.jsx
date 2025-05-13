@@ -110,7 +110,7 @@ function Footer() {
             </div>
           ) : (
             <div>
-              <p className={styles.period}>1. november - 20. december</p>
+              <p className={styles.period}>7. november - 20. december</p>
               <div className="flex-row">
                 <div className={styles.flexColumn}>
                   <p>Mandag:</p>
