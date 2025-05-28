@@ -120,8 +120,7 @@
   .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
-    row-gap: 2rem;
+    gap: 2rem;
     padding-block: 6rem;
     padding-inline: 1rem;
   }
